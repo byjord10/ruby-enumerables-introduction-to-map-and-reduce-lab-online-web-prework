@@ -25,7 +25,7 @@ def reduce_to_total (source_array, starting_point)
 end
 
 def reduce_to_total (source_array)
- source_array.reduce(0) { |sum, element| sum + element }
+ source_array.reduce(starting_point) { |sum, element| sum + element }
  end
 
 def reduce_to_total(source_array, starting_point)
