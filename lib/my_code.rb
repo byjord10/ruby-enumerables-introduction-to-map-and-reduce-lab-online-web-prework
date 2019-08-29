@@ -32,6 +32,7 @@ def reduce_to_total (source_array)
     i += 1
 end
 return new
+end 
 
 def reduce_to_total(source_array, starting_point)
   source_array.reduce(100) { |sum, element| sum + element }
